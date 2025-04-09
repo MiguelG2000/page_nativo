@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { nombre, telefono, mensaje } = formData;
-    const whatsappNumber = '+523326165790';
+    const whatsappNumber = '+529616936644';
     const encodedMessage = encodeURIComponent(
       `Nombre: ${nombre}\nTeléfono: ${telefono}\nMensaje: ${mensaje}`
     );
